@@ -85,13 +85,12 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-#     "*": {
-#         "on_update": "method",
-#         "on_cancel": "method",
-#         "on_trash": "method"
-#    }
-# }
+doc_events = {
+    'Payment Entry': {
+        'on_submit':
+            'libermatic_customization.doc_events.payment_entry.on_submit',
+    },
+}
 
 # Scheduled Tasks
 # ---------------
