@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include libermatic_customization *.css
+recursive-include libermatic_customization *.csv
+recursive-include libermatic_customization *.html
+recursive-include libermatic_customization *.ico
+recursive-include libermatic_customization *.js
+recursive-include libermatic_customization *.json
+recursive-include libermatic_customization *.md
+recursive-include libermatic_customization *.png
+recursive-include libermatic_customization *.py
+recursive-include libermatic_customization *.svg
+recursive-include libermatic_customization *.txt
+recursive-exclude libermatic_customization *.pyc
