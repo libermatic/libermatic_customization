@@ -21,8 +21,6 @@ def on_submit(doc, method):
                 subject = 'SMS: {} to {}'.format(
                     template, si.contact_display or '☺'
                 )
-                from pprint import pprint
-                pprint(content)
                 if content:
                     request_sms(
                         si.contact_mobile,
