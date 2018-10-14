@@ -8,7 +8,7 @@ def get_data():
         {
             "module_name": "Libermatic Customization",
             "color": "'#2196F3'",
-            "icon": "'fa fa-cog'",
+            "icon": "fa fa-cog",
             "type": "module",
             "label": _("Libermatic Customization")
         }
